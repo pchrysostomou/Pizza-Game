@@ -56,6 +56,7 @@ void playMusic(int loop);
 void playSound(int id, int channel);
 void prepareScene(void);
 void presentScene(void);
+void initHazard(char* line);
 
 #ifdef __cplusplus
 }

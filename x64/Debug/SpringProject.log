@@ -1,10 +1,19 @@
-﻿  main.c
-D:\Final\project\visual-studio\SpringProjectx\main.c(48,23): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
-D:\Final\project\visual-studio\SpringProjectx\main.c(75,12): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
-D:\Final\project\visual-studio\SpringProjectx\main.c(90,21): warning C4305: '+=': truncation from 'double' to 'float'
-  LINK : 0 new modules and 1 (out of 56) modules have changed since prior linking
+﻿  danger.c
+D:\Final\project\visual-studio\SpringProjectx\danger.c(32,18): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(32,62): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(34,17): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(34,27): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(34,37): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(34,46): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(40,18): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(40,62): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(42,17): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(42,27): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(42,37): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\Final\project\visual-studio\SpringProjectx\danger.c(42,46): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+  LINK : 0 new modules and 1 (out of 57) modules have changed since prior linking
   Starting pass 2
-       main.obj
+       danger.obj
        MSVCRTD.lib(loadcfg.obj)
   Finished pass 2
   SpringProject.vcxproj -> D:\Final\project\visual-studio\SpringProjectx\x64\Debug\SpringProject.exe

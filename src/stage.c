@@ -38,6 +38,8 @@ void initStage(void)
 	initPlayer();
 
 	initMap();
+
+	
 }
 
 static void logic(void)
@@ -47,6 +49,8 @@ static void logic(void)
 	doEntities();
 
 	doCamera();
+
+	//initHazard();
 }
 
 static void draw(void)
