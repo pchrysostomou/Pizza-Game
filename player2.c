@@ -30,14 +30,14 @@ void doPlayer2(void)
 		player2->texture = pete[1];
 	}
 
-	if (app.keyboard[SDL_SCANCODE_I])
+	if (app.keyboard[SDL_SCANCODE_L])
 	{
 		player2->dx = PLAYER_MOVE_SPEED;
 
 		player2->texture = pete[0];
 	}
 
-	if (app.keyboard[SDL_SCANCODE_L] && player2->isOnGround)
+	if (app.keyboard[SDL_SCANCODE_I] && player2->isOnGround)
 	{
 		player2->riding = NULL;
 
@@ -46,7 +46,7 @@ void doPlayer2(void)
 		playSound(SND_JUMP, CH_PLAYER);
 	}
 
-	if (app.keyboard[SDL_SCANCODE_I])
+	if (app.keyboard[SDL_SCANCODE_M])
 	{
 		player2->x = player2->y = 0;
 
