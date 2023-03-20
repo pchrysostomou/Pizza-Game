@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="danger.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="player2.c" />
     <ClCompile Include="src\block.c" />
     <ClCompile Include="src\camera.c" />
     <ClCompile Include="src\draw.c" />

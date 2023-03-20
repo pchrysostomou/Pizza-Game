@@ -296,7 +296,10 @@ static void addEntFromLine(char *line)
 	{
 		initHazard(line);
 	}
-
+	else if (strcmp(name, "PLAYER2") == 0)
+	{
+		initPlayer2(line);
+	}
 	else
 	{
 		SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_WARN, "Unknown entity '%s'", line);

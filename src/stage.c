@@ -37,6 +37,8 @@ void initStage(void)
 
 	initPlayer();
 
+	initPlayer2();
+
 	initMap();
 
 	
@@ -45,7 +47,7 @@ void initStage(void)
 static void logic(void)
 {
 	doPlayer();
-
+	doPlayer2();
 	doEntities();
 
 	doCamera();

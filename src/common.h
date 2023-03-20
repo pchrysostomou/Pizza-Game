@@ -22,6 +22,7 @@ extern "C" {
 char * global_dir;
 App app;
 Entity *player;
+Entity* player2;
 Stage stage;
 Entity *self;
 
@@ -37,6 +38,7 @@ void doCamera(void);
 void doEntities(void);
 void doInput(void);
 void doPlayer(void);
+void doPlayer2(void);
 void drawEntities(void);
 void drawMap(void);
 void drawText(int x, int y, int r, int g, int b, int align, char *format, ...);
@@ -48,6 +50,7 @@ void initMap(void);
 void initPizza(char *line);
 void initPlatform(char *line);
 void initPlayer(void);
+void initPlayer2(void);
 void initSDL(void);
 void initSounds(void);
 void initStage(void);

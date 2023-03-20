@@ -73,3 +73,4 @@ void doPlayer(void)
 		app.keyboard[SDL_SCANCODE_SPACE] = 0;
 	}
 }
+

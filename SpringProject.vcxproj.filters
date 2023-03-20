@@ -69,6 +69,9 @@
     <ClCompile Include="danger.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="player2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\structs.h">
